@@ -5,10 +5,10 @@ ISP programming Attiny with Raspberrypi and avrdude<br>
 ![alt tag](https://github.com/kashimAstro/raspberry_attiny_programmer/blob/master/gpio-attiny85.jpg)
 
 <br>
-configure avrdude<br>
+<b>configure avrdude</b><br>
 sudo vim /etc/avrdude.conf 
 
-add programmer for attiny ISP with avrdude<br>
+<b>add programmer for attiny ISP with avrdude</b><br>
 <code><pre>
 programmer
   id    = "AttinyGPIO";
@@ -21,17 +21,17 @@ programmer
 ;
 </pre></code><br>
 
-spi terminal <br>
+<b>spi terminal</b> <br>
 ./tools/terminal.sh 85 AttinyGPIO<br><br>
 
-flash hex<br>
+<b>flash hex</b><br>
 ./tools/flash.sh 85 AttinyGPIO led-arduino-mk/bin/ledtest.hex<br><br>
 
-example code arduino<br>
+<b>example code arduino</b><br>
 led-arduino-mk<br><br>
 
-example code avr toolchain<br>
+<b>example code avr toolchain</b><br>
 led-avr-mk<br><br>
 
-avrdude programmer definition<br>
+<b>avrdude programmer definition</b><br>
 http://www.nongnu.org/avrdude/user-manual/avrdude_12.html
