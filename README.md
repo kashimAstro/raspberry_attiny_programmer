@@ -2,8 +2,9 @@
 
 ISP programming Attiny with Raspberrypi and avrdude<br>
 
-![alt tag](https://github.com/kashimAstro/raspberrypi_attiny_programmer/blob/master/gpio-attiny85.jpg)
+![alt tag](https://github.com/kashimAstro/raspberry_attiny_programmer/blob/master/gpio-attiny85.jpg)
 
+<br>
 configure avrdude<br>
 sudo vim /etc/avrdude.conf 
 
