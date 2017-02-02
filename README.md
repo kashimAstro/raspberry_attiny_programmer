@@ -9,7 +9,7 @@ ISP programming Attiny with Raspberrypi and avrdude<br>
 
 <br>
 <b>configure avrdude</b><br>
-sudo vim /etc/avrdude.conf 
+<code>sudo vim /etc/avrdude.conf</code>
 
 <b>add programmer for attiny ISP with avrdude</b><br>
 <code><pre>
@@ -25,16 +25,13 @@ programmer
 </pre></code><br>
 
 <b>spi terminal</b> <br>
-./tools/terminal.sh 85 AttinyGPIO<br><br>
+<code>./tools/terminal.sh 85 AttinyGPIO</code><br><br>
 
 <b>flash hex</b><br>
-./tools/flash.sh 85 AttinyGPIO led-arduino-mk/bin/ledtest.hex<br><br>
+<code>./tools/flash.sh 85 AttinyGPIO led-arduino-mk/bin/ledtest.hex</code><br><br>
 
-<b>example code arduino</b><br>
-led-arduino-mk<br><br>
-
-<b>example code avr toolchain</b><br>
-led-avr-mk<br><br>
+<b>example code arduino:</b> led-arduino-mk<br>
+<b>example code avr toolchain:</b> led-avr-mk<br>
 
 <b>avrdude programmer definition</b><br>
 http://www.nongnu.org/avrdude/user-manual/avrdude_12.html
