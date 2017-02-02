@@ -12,7 +12,7 @@ ISP programming Attiny with Raspberrypi and avrdude<br>
 <code>sudo vim /etc/avrdude.conf</code>
 
 <b>add programmer for attiny ISP with avrdude</b><br>
-<code>
+<pre><code>
 programmer
   id    = "AttinyGPIO";
   desc  = "Attiny GPIO interface SPI programmer";
@@ -22,7 +22,7 @@ programmer
   mosi  = 10;
   miso  = 9;
 ;
-</code><br>
+</code></pre><br>
 
 <b>spi terminal</b> <br>
 <code>./tools/terminal.sh 85 AttinyGPIO</code><br><br>
